@@ -1,0 +1,33 @@
+{
+  "repo": "particle-god",
+  "checks": {
+    "typecheck": {
+      "exitCode": 0,
+      "log": "/home/ibi/projects/odoroki/verification/particle-god-typecheck.log"
+    },
+    "test": {
+      "exitCode": 0,
+      "log": "/home/ibi/projects/odoroki/verification/particle-god-test.log"
+    },
+    "build": {
+      "exitCode": 0,
+      "log": "/home/ibi/projects/odoroki/verification/particle-god-build.log"
+    },
+    "audit": {
+      "exitCode": 0,
+      "log": "/home/ibi/projects/odoroki/verification/particle-god-audit.log"
+    }
+  },
+  "tests": 6,
+  "productionVulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "head": "cbe03051f4a7039b920bcd1116f4339b09f9997e",
+  "sourceTree": "cb034cdd01c2529a5412409ab3016bfb56384f60",
+  "packageLockSHA256": "881ba0648f613bdd63102284fd4d4ce8835df5377ed5fdc6230be2ef01e29491"
+}

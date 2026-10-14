@@ -1,0 +1,117 @@
+{
+  "sourceTree": "cb034cdd01c2529a5412409ab3016bfb56384f60",
+  "capturedOn": "2026-10-14",
+  "scope": "Native Edge AMD Radeon 780M; emulated touch/reduced motion. Older snapshots explicitly described in BROWSER_QA.md. Input contents/external injected-browser requests excluded.",
+  "checks": {
+    "native-final-log": [
+      {
+        "slug": "particle",
+        "before": {
+          "name": "PARTICLE GOD",
+          "stage": "face",
+          "particleCount": 589824,
+          "quality": "high",
+          "mode": "GPU",
+          "fps": 143.85408304466586,
+          "word": "WE ARE DUST",
+          "gentle": false,
+          "contextLost": false,
+          "frames": 510,
+          "targetChecksum": 133694.50732414192,
+          "gpuTextures": 5,
+          "geometries": 2
+        },
+        "restored": {
+          "name": "PARTICLE GOD",
+          "stage": "face",
+          "particleCount": 589824,
+          "quality": "high",
+          "mode": "GPU",
+          "fps": 145.3550820768459,
+          "word": "WE ARE DUST",
+          "gentle": false,
+          "contextLost": false,
+          "frames": 597,
+          "targetChecksum": 133694.50732414192,
+          "gpuTextures": 5,
+          "geometries": 2
+        },
+        "warnings": []
+      }
+    ],
+    "mobile-touch-log": [
+      {
+        "slug": "particle",
+        "before": {
+          "name": "PARTICLE GOD",
+          "stage": "face",
+          "particleCount": 16384,
+          "quality": "low",
+          "mode": "GPU",
+          "fps": 127.14188934694845,
+          "word": "WE ARE DUST",
+          "gentle": true,
+          "contextLost": false,
+          "frames": 32,
+          "targetChecksum": 133694.50732414192,
+          "gpuTextures": 5,
+          "geometries": 2
+        },
+        "afterGesture": {
+          "name": "PARTICLE GOD",
+          "stage": "face",
+          "particleCount": 16384,
+          "quality": "low",
+          "mode": "GPU",
+          "fps": 143.4476272550305,
+          "word": "WE ARE DUST",
+          "gentle": true,
+          "contextLost": false,
+          "frames": 116,
+          "targetChecksum": 133694.50732414192,
+          "gpuTextures": 5,
+          "geometries": 2
+        },
+        "final": {
+          "name": "PARTICLE GOD",
+          "stage": "face",
+          "particleCount": 16384,
+          "quality": "low",
+          "mode": "GPU",
+          "fps": 144.16295862166922,
+          "word": "WE ARE DUST",
+          "gentle": true,
+          "contextLost": false,
+          "frames": 140,
+          "targetChecksum": 133694.50732414192,
+          "gpuTextures": 5,
+          "geometries": 2
+        },
+        "fit": {
+          "width": 390,
+          "scroll": 390,
+          "reduced": true
+        },
+        "errors": []
+      }
+    ],
+    "targeted-stress-log": {
+      "state": {
+        "name": "PARTICLE GOD",
+        "stage": "face",
+        "particleCount": 65536,
+        "quality": "medium",
+        "mode": "GPU",
+        "fps": 143.74250311671713,
+        "word": "WE ARE DUST",
+        "gentle": false,
+        "contextLost": false,
+        "frames": 461,
+        "targetChecksum": 133694.50732414192,
+        "gpuTextures": 5,
+        "geometries": 2
+      },
+      "glError": 0
+    }
+  }
+}
