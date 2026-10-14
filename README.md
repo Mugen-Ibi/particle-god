@@ -1,5 +1,7 @@
 # PARTICLE GOD
 
+![Preview](docs/screenshots/particle-native-final.png)
+
 A living constellation: suspended dust becomes an original procedural three-dimensional bust, opens into a spiral galaxy, then settles into extruded lettering. Pointer forces are local; displaced particles seek their original targets again.
 
 ## Run
